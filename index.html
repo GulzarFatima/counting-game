@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Ball Counting Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="scoreboard">
+    <span>Score: <span id="score">0</span></span>
+    <span>Total: <span id="total">0</span></span>
+    <span>Strikes: <span id="strikes">0</span>/3</span>
+
+  </div>
+
+  <div class="container">
+    <div class="left" id="ballArea"></div>
+    <div class="right">
+      <div id="question">How many balls?</div>
+      <div class="options" id="options"></div>
+      <div id="timer">5</div>
+      <div id="result"></div>
+      <div id="levelUp" class="hidden">LEVEL UP! 🚀</div>
+
+    </div>
+  </div>
+
+  <div class="buttons">
+    <button id="toggleBtn">Start Game</button>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
